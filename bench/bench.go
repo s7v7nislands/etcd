@@ -42,7 +42,7 @@ func main() {
 	rWrites := flag.Int("write-requests", 50000, "number of writes")
 	cWrites := flag.Int("concurrent-writes", 500, "number of concurrent writes")
 
-	watches := flag.Int("watches", 500, "number of writes")
+	watches := flag.Int("watches", 500, "number of watches")
 
 	flag.Parse()
 
